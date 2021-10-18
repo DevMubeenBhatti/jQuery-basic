@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Document</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<h1 id="heading"> Welcome to Code With</h1>
+			<div id="myfirst" class="child red good" id="first">child 1
+
+				<ul class="this">
+					<li class="childul">this</li>
+					<li class="childul">is</li>
+					<li class="childul">a</li>
+					<li class="childul">list </li>
+					<li class="childul">of my dreams</li>
+				</ul>
+			</div>
+			<div class="child">child 2</div>
+			<div class="child red">child 3</div>
+			<div class="child">child 4</div>
+			<form action="none.html" method="post">
+				<a href="//codewithharry.com">Go to Code With Harry</a>
+				<br>
+				<br>
+				Search this website: <input type="text" name="Hello" id="">
+				<input type="button" value="submit">
+			</form>
+		</div>
+		<br>
+		<div class="no">this is a dummy div1</div>
+		<div class="no">this is a dummy div2</div>
+		<div class="no">this is a dummy div3</div>
+	</body>
+	<script>
+		/*
+		// Exercise 1
+		// You have to create a variable which is a string containing the text which is a link you are interested in.
+
+		// You have to fetch all the links from a given page which contains this text
+
+		// codewithharry.com
+		// javascript
+
+		*/
+
+// ==============
+		let str = String(document.links[0])
+		console.log(str);
+		Array.from(str).forEach(function(element){
+			element =str;
+			console.log(element);
+		})
+		// New code to show url:
+		// let str = String(document.links[0].href);
+		// Array.from(str).forEach((element) => {
+		// 	// console.log(element);
+		// 	element = str;
+		// 	let str1 = "codewithharry";
+		// 	let str2 = "javascript";
+
+		// 	if (element.includes("codewithharry") || element.includes("javascript")) {
+		// 		console.log(`It includes ${str1} and this is the url to it: ${str}`);
+		// 	} else {
+		// 		console.log(`Does not includes ${str2}`);
+		// 	}
+		// });
+	</script>
+
+</html>
