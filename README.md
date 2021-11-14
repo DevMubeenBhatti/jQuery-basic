@@ -1,2 +1,2 @@
-# javaScript
+# javaScript & jQuery
 learing javaScript beginner
