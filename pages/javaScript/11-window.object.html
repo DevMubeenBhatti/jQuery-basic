@@ -9,7 +9,7 @@
 		<meta name="author" content="mubeen">
 		<!-- <meta http-equiv="refresh" content="30"> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>javaScript-console</title>
+		<title>javaScript-function</title>
 		<!-- custom css -->
 		<link rel="stylesheet" href="../css/custom.css">
 		<!-- bootstrap css -->
@@ -21,7 +21,7 @@
 		<div class="wrapper">
 			<nav class="navbar navbar-dark bg-dark">
 				<div class="container-fluid">
-					<a class="navbar-brand" href="../index.html">JavaScritpt</a>
+					<a class="navbar-brand" href="../index.html">window obj</a>
 					<form class="d-flex">
 						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
 						<button class="btn btn-outline-success" type="submit">Search</button>
@@ -30,34 +30,36 @@
 			</nav>
 		</div>
 		<div class="container">
-			<h3 class="mx-3">you can check console in panel</h3>
+			<h3 class="mx-3">you can check function in panel</h3>
 		</div>
 
 		<script>
-			console.time('your code took');
-			// alert("javaScript leacture")
-			console.log('hello console');
-			console.log(4 + 34);
-			console.log(34);
-			console.log(true);
-			console.log([34, 2, 1, 2]);
-			console.log({ mubeen: 'this', marks: 609 });//ojbect js syntax
-			console.table({ harry: 'this', marks: 34 }); //key value property
-			console.warn('This is a waring');
-			// console.clear();
+			// let a = window;
+			// let a = window.document;
+			// let a = prompt("this is paramat");
+			// let a = alert("are you sure you want to delete");
+			// let a = confirm("are you srue you are confirm it");
+			// let a = window.innerHeight;
+			// let b = window.innerWidth;
+			// console.log(a, b);
 
-			// console.time('your code took');
-			// console.timeEnd('hello console');
+			// let a = scrollX;
+			// let b = screenY;
+			// console.log(a, b);
 
-			console.timeEnd('your code took');
-			console.assert(35 > 45, 'Age > 45 is not possible');
-			console.error('this is an error');
-			// %c which will replace %c in the logs  in console image
-			const spacing = '8px';
-			const mystyle =
-				`padding: ${spacing}; background-color: white; color: blue ; font-style:italic; border: 1px solid black dotted; font-size: 2em;`;
-			console.log('%cCode With Harry', mystyle);
+			// let a = window.location;
+			// let a = location;
+			// let a = location.href;
+			// let a = location.href= '//google.com';
+			let a = window.history;
+			history.length; 
+			history.go(1);// use forward page
+			history.go(-1);	// use goBack page
+ 			console.log(a);
+
+
 		</script>
+
 
 		<!-- jquery -->
 		<!-- <script src="node_modules/jquery/dist/jquery.js"></script> -->
